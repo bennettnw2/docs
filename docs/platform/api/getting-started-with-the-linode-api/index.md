@@ -28,7 +28,7 @@ For example, this command creates a new 2GB Linode, deploys a Debian 9 image, an
     -H "Authorization: Bearer $TOKEN" -H "Content-type: application/json" \
     -d '{"type": "g5-standard-2", "region": "us-east", "image": "linode/debian9", "root_pass": "root_password", "label": "prod-1"}'
 
-This guide will help you get set up to run this example. Note that if you run this command, you will be create and be [charged for a 2GB Linode](/pricing).
+This guide will help you get set up to run this example. Note that if you run this command, you will create and be [charged for a 2GB Linode](/pricing).
 
 ## Get an Access Token
 
