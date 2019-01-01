@@ -132,7 +132,7 @@ If you prefer a smaller number of items per page, you can override the default v
 
 ### Filter Results
 
-The API also supports filtering lists of results. Filters are passed using the `X-Filter` header and use JSON format. You can filter on almost any field that appears in a response object and the [API documentation](https://developers.linode.com/v4/introduction) specifies which fields are filterable.
+The API also supports filtering lists of results. Filters are passed using the `X-Filter` header and use JSON format. You can filter on almost any field that appears in a response object and the [API documentation](https://developers.linode.com/api/v4) specifies which fields are filterable.
 
 The following query uses the `deprecated` and `vendor` fields to return all current Debian images:
 
